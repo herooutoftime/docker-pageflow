@@ -1,0 +1,8 @@
+S3_BUCKET: "de-cg-pageflow-development"
+S3_ACCESS_KEY: "AKIAIHUGAOREBYYFOZ7A"
+S3_SECRET_KEY: "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"
+S3_HOST_NAME: "s3-eu-central-1.amazonaws.com"
+S3_HOST_ALIAS: "de-cg-pageflow-development.s3-website.eu-central-1.amazonaws.com"
+ZENCODER_API_KEY: "439807639459e8d3c2cebe1c8e7c64cc"
+S3_OUTPUT_BUCKET: "de-cg-pageflow-development-out"
+S3_OUTPUT_HOST_ALIAS: "de-cg-pageflow-development-out.s3-website.eu-central-1.amazonaws.com"
