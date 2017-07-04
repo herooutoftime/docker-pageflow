@@ -26,11 +26,12 @@ if [ ! -f install.mark ]; then
 
     rake db:create
 
-    bundle install 
+    bundle install
 
     echo "" >> Gemfile
     echo "gem 'pageflow'" >> Gemfile
     echo "gem 'state_machine', git: 'https://github.com/codevise/state_machine.git'" >> Gemfile
+    echo "gem 'figaro'" >> Gemfile
 
     bundle update
 
