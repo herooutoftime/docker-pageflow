@@ -23,7 +23,7 @@ RUN rails new app --database=mysql
 
 WORKDIR /var/www/app
 
-COPY ./src/Gemfile /var/www/app
+COPY ./Gemfile /var/www/app
 COPY ./src/database.yml /var/www/app/config
 COPY ./docker-cmd.sh /var/www/app/docker-cmd.sh
 COPY ./docker-entry-point.sh /var/www/app/docker-entry-point.sh
